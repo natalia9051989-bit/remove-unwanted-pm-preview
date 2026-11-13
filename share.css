@@ -1,0 +1,4 @@
+/* share.html only: hide the dev review-shell panels (Flow Explorer, Try the interaction)
+   around the device mockup, leaving just the phone to click through.
+   index.html / app.js are untouched - local review keeps both panels. */
+.left-panel,.right-panel{display:none}
