@@ -199,6 +199,9 @@
 .menu-row:hover{background:var(--soft)}
 .menu-row>.icon{width:24px;height:24px;color:var(--teal)}
 .menu-row>span{flex:1;min-width:0}
+.menu-row.danger{color:var(--danger)}
+.menu-row.danger>.icon{color:var(--danger)}
+.menu-row.danger:hover{background:#b94f4b1a}
 .menu-row .menu-value{color:var(--muted);font-size:14px;font-weight:400}
 .menu-row>.icon:last-child{width:18px;height:18px;color:var(--muted)}
 .theme-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:4px}
